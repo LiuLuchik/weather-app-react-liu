@@ -7,7 +7,7 @@ export default function App() {
       <footer>
         <a
           className="App-link"
-          href="https://github.com/LiuLuchik/react-weather-app-learn"
+          href="https://github.com/LiuLuchik/weather-app-react-liu"
           target="_blank"
           rel="noopener noreferrer"
         >
