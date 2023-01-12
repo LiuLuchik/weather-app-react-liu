@@ -4,7 +4,7 @@ import "./Weather.css";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-  const [temprature, setTemperature] = useState(null);
+  // const [temprature, setTemperature] = useState(null);
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -17,7 +17,6 @@ export default function Weather(props) {
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
     });
   }
-
   if (weatherData.ready) {
     return (
       <div className="Weather">
