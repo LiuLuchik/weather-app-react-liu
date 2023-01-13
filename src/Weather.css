@@ -30,8 +30,6 @@
 }
 
 .Weather canvas {
-  height: 60px;
-  width: 60px;
   display: inline-block;
 }
 
