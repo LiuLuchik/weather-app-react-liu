@@ -7,16 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="London" />
-        <footer>
-          <a
-            className="App-link"
-            href="https://github.com/LiuLuchik/weather-app-react-liu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Git
-          </a>
-        </footer>
+        <footer></footer>
       </div>
     </div>
   );
